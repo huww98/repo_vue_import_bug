@@ -4,15 +4,12 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import { b } from './test';
+const a = 1;
+</script>
 
-export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-});
+<script lang="ts" setup>
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <style>
